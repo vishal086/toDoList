@@ -1,0 +1,85 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.container
+{
+    height: 100vh;
+    background: linear-gradient(260deg,rgb(76, 46, 115),rgb(106, 54, 190));
+    margin: auto;
+}
+
+.todo-app
+{
+    position: relative;
+    top: 20px;
+    background-color: rgb(226, 221, 221);
+    width: 400px;
+    margin: auto;
+    border-radius: 15px;
+}
+
+#input-text
+{
+    outline: none;
+    font-size:20px;
+    height: 32px;
+    margin: 0px 0px 5px 34px;
+    padding: 0px 0px 0px 10px;
+    border-radius: 23px;
+    border: none;
+}
+#btn
+{
+    float: right;
+    padding: 10px;
+    border: none;
+    border-radius: 23px;
+    cursor: pointer;
+    color: white;
+    margin-right: 5px;
+    background: linear-gradient(130deg,rgb(93, 54, 184),rgb(105, 55, 175));
+    font-family: sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#alrt
+{
+    margin: -10px 0px 0px 50px;
+    color: brown;
+}
+#list-container
+{
+    list-style-type: none;
+    margin: 15px 0px 10px 40px;
+    padding: 0px 0px 10px 0px;
+}
+
+#list-container li
+{
+    list-style-type: none;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.row h1
+{
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 15px;
+}
+
+#list-container li span
+{
+   float: right;
+   padding: 5px;
+   border-radius: 40%;
+   position: absolute;
+   right: 30px;
+}
+#list-container li span:hover 
+{
+    background-color: white;
+}
